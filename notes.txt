@@ -1,0 +1,10 @@
+Reads top to bottom like JS - not hoisted, variables can not be used before they are defined.
+
+Blocks of code are defined using indentation in Python
+if 5 > 2:
+  print("Five is greater than two!")
+
+Would be a valid code block but
+if 5 > 2:
+print("Five is greater than two!")
+would not be 
